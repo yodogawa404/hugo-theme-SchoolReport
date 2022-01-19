@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14pt;
+}
+body {
+    font-size: 12pt;
+}
+@page {
+    size: A4;
+    margin: 7.5mm;
+}
+ol,ul{
+    padding-left: 2ex;
+}
