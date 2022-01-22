@@ -2,10 +2,10 @@
 <html>
 {{- partial "head.html" . -}}
 <body>
-    <div class="container">
-        <div class="item">{{.PublishDate.Format "2006 / 01 / 02"}}</div>
-        <div class="item">{{.Title}}</div>
-        <div class="item">{{ .Site.Params.name}}</div>
+    <div id="header">
+        <div>{{.PublishDate.Format "2006 / 01 / 02"}}</div>
+        <div>{{.Title}}</div>
+        <div>{{ .Site.Params.name}}</div>
     </div>
 </div>
 
