@@ -13,3 +13,7 @@ body {
 ol,ul{
     padding-left: 2ex;
 }
+
+table,th,td{
+    border:solid black 1pt
+}
