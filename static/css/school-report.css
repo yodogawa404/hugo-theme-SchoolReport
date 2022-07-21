@@ -17,3 +17,14 @@ ol,ul{
 table,th,td{
     border:solid black 1pt
 }
+
+ol{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+ol li{
+    margin-right: 1em;
+    width: 30%;
+    white-space: nowrap
+}
